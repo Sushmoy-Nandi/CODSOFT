@@ -1,2 +1,2 @@
 # CODSOFT
-## Intership Java Programming
+## Internship Java Programming
