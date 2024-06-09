@@ -9,5 +9,4 @@ public class StudentGradeCalculator {
     public static int totalMarks;
     public static double averageMarks;
     public static float percentageOfMarks;
-
 }
