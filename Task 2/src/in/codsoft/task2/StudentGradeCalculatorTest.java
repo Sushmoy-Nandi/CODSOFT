@@ -19,6 +19,8 @@ public class StudentGradeCalculatorTest extends StudentGradeCalculator {
         totalMarks=mathMarks+physicsMarks+chemistryMarks;
         averageMarks= (double) totalMarks /numberOfSubjects;
         percentageOfMarks= (float) (averageMarks/100)*100;
+        System.out.print("Total Marks: ");
+        System.out.println(totalMarks);
         System.out.print("Percentage of Total Marks: ");
         System.out.println(percentageOfMarks+" %");
 
