@@ -25,15 +25,15 @@ public class StudentGradeCalculatorTest extends StudentGradeCalculator {
         System.out.println(percentageOfMarks+" %");
 
         if (percentageOfMarks >= 90) {
-            System.out.println("Great, You have got A");
+            System.out.println("Great, You have got A.");
         } else if (percentageOfMarks >= 75) {
-            System.out.println("Good, You have got B");
+            System.out.println("Good, You have got B.");
         } else if (percentageOfMarks >= 60) {
-            System.out.println("You have got C, Work harder next time");
+            System.out.println("You have got C, Work harder next time.");
         } else if (percentageOfMarks >= 30) {
-            System.out.println("You have got D, You seriously need to work harder");
+            System.out.println("You have got D, You seriously need to work harder.");
         } else {
-            System.out.println("Sorry, You have failed the test and got a F");
+            System.out.println("Sorry, You have failed the test and got a F.");
         }
     }
 }
