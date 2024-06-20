@@ -96,7 +96,6 @@ public class Login extends JFrame implements ActionListener {
 
 
     }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         try{
@@ -122,7 +121,6 @@ public class Login extends JFrame implements ActionListener {
         }catch (Exception E){
             E.printStackTrace();
         }
-
     }
 
     public static void main(String[] args) {
